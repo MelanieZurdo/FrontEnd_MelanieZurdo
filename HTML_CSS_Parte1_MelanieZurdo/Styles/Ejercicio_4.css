@@ -1,0 +1,91 @@
+body{
+    font-size: 15px;
+}
+
+.fivepositions{
+    color:red;
+    text-decoration: underline;    
+}
+
+.olympicsgames{
+    color:blue;
+}
+
+.subtitle{
+    color:grey;
+}
+
+table{
+    border: 2px black solid
+}
+
+th{
+    text-align: center;
+    padding: 1em;
+}
+
+th,td{
+    border: 2px black dotted;
+    
+}
+
+.countries{
+    font-weight: bold;
+    padding: 1em;
+}
+
+.gold{
+    background-color: yellow;
+}
+
+.silver{
+    background-color:grey;
+}
+
+.bronce{
+    background-color:pink;
+}
+
+.total{
+    background-color: rgb(131, 238, 131);
+}
+
+img{
+    width: 2em;
+    height: 1em;
+
+}
+
+.totalsizeone{
+    font-size:2em;
+    font-weight: bold;
+}
+
+.totalsizetwo{
+    font-size:1.5em;
+    font-weight: bold;
+}
+
+.sizeone{
+    font-size:1.5em;
+    font-weight: bold;
+}
+
+.sizetwo{
+    font-size:1.3em;
+    font-weight: bold;
+}
+
+.sizethree{
+    font-size:1.2em;
+    font-weight: bold;
+}
+
+.sizefour{
+    font-size:1.1em;
+    font-weight: bold;
+}
+
+
+
+

@@ -1,0 +1,21 @@
+body{
+    font-size: 15px;
+}
+.maintitle{
+    color:violet;
+    text-align: center;
+}
+
+.mainimage{
+
+    width: 23em;
+    height: 23em;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;   
+
+}
+
+.subtitle{
+    color: grey;
+}

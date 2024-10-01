@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Permanent+Marker&display=swap');
+
+body{
+    font-size: 10px;
+}
+
+h1{
+    color: rgb(75, 145, 206);
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#juego{
+    border:0.2rem rgb(75, 145, 206);
+    border-style:groove;
+    margin: auto;
+    width:25rem ;
+    height: 20rem;
+    text-align: center;
+}
+
+label{
+    font-size:1.2rem ;
+    margin-bottom: 1rem;
+    display: block;
+    font-family: "Kalam", cursive;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#reiniciar{
+    margin-top: 1rem;
+    margin-bottom: 0.6rem;
+}
+
+.elementooculto{
+
+    visibility: hidden
+    
+}
+
+.elementovisible{
+
+    visibility: visible;
+    
+}
+
+
+
+.mensajes{
+    color: rgb(75, 145, 206);
+    font-size: 1.1rem;
+    font-family: "Kalam", cursive;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+.btn{
+    background-color: rgb(75, 145, 206);
+    color: white;
+    font-size: 1.1rem;
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+.btn:hover{
+    background-color: rgb(75, 145, 230);
+    
+}
+
+.errormensaje{
+    color:red;
+}
+
+.mensajecorrecto{
+    color:greenyellow;
+
+}
+
+img{
+    width: 6rem;
+    height: 3rem;
+    display: block;
+    margin: auto;
+}

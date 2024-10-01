@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdivinAr</title>
+    <link rel="stylesheet" href="./Styles/style.css">
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+    
+</head>
+<body onload="generarNumeroAleatorio()">
+
+    <div id="juego">
+
+        <h1>Bienvenido a Adinvinar</h1>
+
+       
+
+        <label for="ingresonumero">Ingrese un numero del 1 al 10</label>
+
+        <input type="number" id="ingresonumero">
+
+        <button class="btn" id="comprobarnumero" onclick="enviarNumero()">Enviar numero</button>
+
+        <button class="btn elementooculto" id="reiniciar" onclick="reiniciarJuego()">Reiniciar juego</button>
+
+        <img class="elementooculto" id="gif" src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnVqaHE0ajNzbWxwZGtoYmU0ZjIwdW1senYxbGpicXN5MXhuZWl6ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oz9ZE2Oo9zRC/giphy.gif" alt="">
+
+        <p id="mensajes" class="mensajes">A jugar!</p>
+
+        
+
+        
+
+        <script src="./Scripts/script.js"></script>
+
+    </div>
+
+    
+    
+    
+</body>
+</html>
